@@ -64,6 +64,18 @@ graph TD
     G3 --> G35[docsify/]
     G35 --> G351[search.js]
     G35 --> G352[docsify.min.js]
+
+    %% 中间节点以注释
+    F2 --> Note1[子文件夹：存放贡献者信息和语法说明]
+    F3 --> Note2[子文件夹：存放服务器架构相关文档]
+    G1 --> Note3[子文件夹：存放CSS样式文件]
+    G3 --> Note4[子文件夹：存放JS脚本文件]
+
+    %% fancy一些
+    style Note1 fill:#f9f,stroke:#333,stroke-width:2px
+    style Note2 fill:#ff9,stroke:#333,stroke-width:2px
+    style Note3 fill:#9f9,stroke:#333,stroke-width:2px
+    style Note4 fill:#9ff,stroke:#333,stroke-width:2px
 ```
 
 ### 🌟 核心目标
