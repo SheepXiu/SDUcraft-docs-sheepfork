@@ -30,24 +30,23 @@ graph TD
     A --> C[_sidebar.md]
     A --> D[index.html]
     A --> E[README.md]
-    A --> F[docs]
+
+    A --> Note1[文档目录：存放主要文档内容]
+    Note1 --> F[docs]
     F --> F1[sducraft服务器运维自救级别指南v1.md]
     F --> F2[other]
     F2 --> F21[contributor.md]
     F2 --> F22[syntax.md]
-    F --> F3[server_arch]
+
+    F --> Note3[服务器架构：存放架构相关文档]
+    Note3 --> F3[server_arch]
     F3 --> F31[env_cfg]
     F31 --> F311[frp/FRP-doc.md]
     F31 --> F312[mcsm/mcsm.md]
     F31 --> F313[pve/网络转发.md]
-    A --> G[source]
-    G --> G1[css/]
-    G --> G2[js/]
 
-    %% 中间节点注释
-    A --> Note1[文档目录：存放主要文档内容]
     A --> Note2[资源目录：存放样式和脚本文件]
-    F3 --> Note3[服务器架构：存放架构相关文档]
+    Note2 --> G[source]
 
     %% fancy
     style Note1 fill:#f9f,stroke:#333,stroke-width:2px
