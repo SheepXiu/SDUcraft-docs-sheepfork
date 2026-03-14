@@ -49,6 +49,7 @@ graph TD
     %% fancy
     style Note1 fill:#f9f,stroke:#333,stroke-width:2px
     style Note2 fill:#9f9,stroke:#333,stroke-width:2px
+    style Note3 fill:#99f,stroke:#333,stroke-width:2px
 ```
 
 ### 🌟 核心目标
