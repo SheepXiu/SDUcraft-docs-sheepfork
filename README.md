@@ -24,8 +24,7 @@ SDUcraft-docs 是山东大学Minecraft社团（SDU Minecraft Club）的官方技
 
 ### 仓库文件结构
 
-```mermaid
-graph TD
+```graph TD
     A[SDUcraft-docs] --> B[_coverpage.md]
     A --> C[_sidebar.md]
     A --> D[index.html]
@@ -36,27 +35,19 @@ graph TD
     Note1 --> F[docs]
     Note2 --> G[source]
 
-    F --> F1[sducraft服务器运维自救级别指南v1.md]
-    F --> F2[other]
-    F --> Note3[服务器架构：存放架构相关文档]
+    F --> F1[开服管服工具指南.md]
+    F --> F2[sducraft服务器运维自救级别指南v1.md]
+    F --> F3[other]
+    F --> Note3[各技术具体教程]
 
-    Note3 --> F3[server_arch]
+    F3 --> F31[contributor.md]
+    F3 --> F32[syntax.md]
 
-    F2 --> F21[contributor.md]
-    F2 --> F22[syntax.md]
-    F3 --> F31[env_cfg]
-    
-    F31 --> F311[frp]
-    F311 --> F3111[FRP-doc.md]
-    F31 --> F312[mcsm]
-    F312 --> F3121[mcsm.md]
-    F31 --> F313[pve]
-    F313 --> F3131[网络转发.md]
+    Note3 --> F4[server_arch]
 
     %% fancy
     style Note1 fill:#f9f,stroke:#333,stroke-width:2px
     style Note2 fill:#9f9,stroke:#333,stroke-width:2px
-    style Note3 fill:#ff9,stroke:#333,stroke-width:2px
 ```
 
 ### 🌟 核心目标
