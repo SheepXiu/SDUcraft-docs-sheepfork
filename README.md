@@ -24,7 +24,8 @@ SDUcraft-docs 是山东大学Minecraft社团（SDU Minecraft Club）的官方技
 
 ### 仓库文件结构
 
-```graph TD
+```mermaid
+graph TD
     A[SDUcraft-docs] --> B[_coverpage.md]
     A --> C[_sidebar.md]
     A --> D[index.html]
