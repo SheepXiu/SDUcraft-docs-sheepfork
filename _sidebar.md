@@ -2,6 +2,11 @@
 
 ---
 
+- **MC服务器运维入门**
+  - [开服管服工具指南](./docs/开服管服工具指南.md)
+
+---
+
 - **MCSM**
   - [MCSM开服简要流程](./docs/server_arch/env_cfg/mcsm/mcsm.md)
   - [docker镜像上传(仅管理员)](./docs/server_arch/env_cfg/mcsm/docker%E9%95%9C%E5%83%8F%E4%B8%8A%E4%BC%A0.md)
