@@ -21,6 +21,9 @@
       repo: 'https://github.com/SDUcraftor/SDUcraft-docs', // 右上角Github图标链接
       // loadNavbar: true, // 默认加载 _navbar.md，作为顶部导航栏
       loadSidebar: './_sidebar.md',
+      alias: {
+        '/.*/_sidebar.md': './_sidebar.md',
+      },
       subMaxLevel: 3, // 生成目录的最大层级
       coverpage: true,
       topMargin: 90, // 滚动到锚点是与顶部的距离
