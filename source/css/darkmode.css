@@ -4,8 +4,8 @@
     --dark-theme-color: #42b983;
     --dark-heading-color: var(--dark-theme-color);
     --dark-cover-background: #000000a8;
-    --dark-code-color: rgba(213, 213, 213, 0.68);
-    --dark-code-background: rgba(42, 41, 41, 0.47);
+    --dark-code-color: #e6edf3;
+    --dark-code-background: #1c1d1e;
     --dark-tip-background: #2c0000;
     --dark-warn-background: #005842;
     --dark-icon-size: 25px;
@@ -193,6 +193,44 @@
 }
 .docsify-dark-mode .font-control-group {
     background: #333;
+}
+
+/* 提高深色模式代码块可读性 */
+.docsify-dark-mode .markdown-section pre,
+.docsify-dark-mode .markdown-section code,
+.docsify-dark-mode .markdown-section pre > code {
+    color: var(--dark-code-color) !important;
+    background: var(--dark-code-background) !important;
+}
+
+.docsify-dark-mode .markdown-section pre {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.docsify-dark-mode .token.comment,
+.docsify-dark-mode .token.prolog,
+.docsify-dark-mode .token.doctype,
+.docsify-dark-mode .token.cdata {
+    color: #8b949e;
+}
+
+.docsify-dark-mode .token.punctuation {
+    color: #c9d1d9;
+}
+
+.docsify-dark-mode .token.boolean,
+.docsify-dark-mode .token.number {
+    color: #79c0ff;
+}
+
+.docsify-dark-mode .token.string,
+.docsify-dark-mode .token.attr-value {
+    color: #a5d6ff;
+}
+
+.docsify-dark-mode .token.keyword,
+.docsify-dark-mode .token.function {
+    color: #ffb86b;
 }
 
 .font-size-display {
